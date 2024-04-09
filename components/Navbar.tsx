@@ -12,7 +12,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className=" hidden py-10 mb-12 lg:flex ">
+      <nav className=" hidden py-10 mb-12 lg:flex px-10 md:px-20 lg:px-40 ">
         <div className="flex mr-auto ">
           <Link href="#inicio">
             <p className="text-xl px-6 cursor-pointer no-underline hover:underline underline-offset-8 decoration-[#464DAF]">
