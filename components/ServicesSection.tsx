@@ -3,9 +3,14 @@ import Image from "next/image";
 function Services() {
   return (
     <>
-      <section id="servicios" className="mt-20 px-10 md:px-20 lg:px-40">
+      <section
+        id="servicios"
+        className="pt-20 px-10 md:px-20 lg:px-40 min-h-screen"
+      >
         <div>
-          <h3 className="text-3xl text-[#464DAF] py-1">Servicios</h3>
+          <h3 className="font-Montserrat font-medium text-3xl text-[#464DAF] py-1">
+            Servicios
+          </h3>
         </div>
         <div className="lg:flex gap-10">
           <div className="text-center shadow-lg p-10 rounded-xl my-10">
