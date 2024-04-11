@@ -9,7 +9,10 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {fontFamily: {
+      Montserrat: ["Montserrat", "sans-serif"],
+      Raleway: ["Raleway","sans-serif"],
+     },},
   },
   plugins: [],
 }
