@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Navbar from "../components/Navbar";
 import React, { useState } from "react";
 
 import Hero from "../components/HeroSection";
@@ -22,7 +21,6 @@ function App() {
         </Head>
         <main className="bg-white ">
           <section className=" min-h-screen">
-            <Navbar />
             <Hero />
           </section>
           <About />
