@@ -48,7 +48,8 @@ function MobileDrawer({ isOpen, onClose }) {
         <li>
           <a
             className="border-solid border-2 border-[#464DAF] px-4 py-2 mt-8 rounded-xl  cursor-pointer hover:bg-[#464DAF] hover:text-white"
-            href="#"
+            onClick={onClose}
+            href="#contacto"
           >
             Contáctame
           </a>
