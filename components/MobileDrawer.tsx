@@ -27,14 +27,23 @@ function MobileDrawer({ isOpen, onClose }) {
         </li>
         <div className="justify-between flex w-32 ">
           <li>
-            <a className="mr-4">
-              {" "}
+            <a
+              href={
+                "https://www.linkedin.com/in/norma-patricia-granados-carrasco-3b9ab1183"
+              }
+              target={"_blank"}
+              rel={"noreferrer"}
+              className="mr-4"
+            >
               <AiFillLinkedin className="cursor-pointer text-3xl  text-[#464DAF] hover:text-black " />
             </a>
           </li>
           <li>
-            <a>
-              {" "}
+            <a
+              href={"https://github.com/normagik"}
+              target={"_blank"}
+              rel={"noreferrer"}
+            >
               <AiFillGithub className="cursor-pointer text-3xl  text-[#464DAF] hover:text-black" />
             </a>
           </li>
@@ -47,7 +56,7 @@ function MobileDrawer({ isOpen, onClose }) {
         </div>
         <li>
           <a
-            className="border-solid border-2 border-[#464DAF] px-4 py-2 mt-8 rounded-xl  cursor-pointer hover:bg-[#464DAF] hover:text-white"
+            className="border-solid border-2 border-[#464DAF] px-4 py-2 mt-8 rounded-xl  cursor-pointer bg-[#464DAF] text-white hover:bg-white hover:text-black"
             onClick={onClose}
             href="#contacto"
           >
