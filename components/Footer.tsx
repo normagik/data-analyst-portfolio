@@ -9,14 +9,22 @@ function Footer() {
           <div>
             <ul className="flex w-36 justify-between">
               <li>
-                <a>
-                  {" "}
+                <a
+                  href={
+                    "https://www.linkedin.com/in/norma-patricia-granados-carrasco-3b9ab1183"
+                  }
+                  target={"_blank"}
+                  rel={"noreferrer"}
+                >
                   <AiFillLinkedin className="cursor-pointer text-4xl text-[#464DAF] hover:text-black " />
                 </a>
               </li>
               <li>
-                <a>
-                  {" "}
+                <a
+                  href={"https://github.com/normagik"}
+                  target={"_blank"}
+                  rel={"noreferrer"}
+                >
                   <AiFillGithub className="cursor-pointer text-4xl text-[#464DAF] hover:text-black " />
                 </a>
               </li>
@@ -30,7 +38,7 @@ function Footer() {
           </div>
           <p
             className="
-           text-[#464DAF] py-5"
+           font-Raleway text-[#464DAF] py-5"
           >
             Copyright &#169; 2024 Patricia Granados
           </p>
