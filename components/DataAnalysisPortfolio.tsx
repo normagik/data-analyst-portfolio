@@ -1,47 +1,44 @@
-import Image from "next/image";
-import data3 from "../public/data3.svg";
+import React from "react";
+import Card from "./CardItem";
 import data4 from "../public/data4.jpg";
 
+const projects = [
+  {
+    id: 1,
+    src: "/data4.jpg",
+    tools: "Python, Tableau",
+    title: "A/B Testing | Python | Tableau",
+    info: "Lorem ipsum",
+  },
+  {
+    id: 2,
+    src: "/data4.jpg",
+    tools: "Python, Tableau",
+    title: "RFM Analysis | Tableau | Python",
+    info: "Lorem ipsum",
+  },
+  {
+    id: 3,
+    src: "/data4.jpg",
+    tools: "Python, Tableau",
+    title: " | Tableau | Python",
+    info: "Lorem ipsum",
+  },
+  {
+    id: 4,
+    src: "/data4.jpg",
+    tools: "Python, Tableau",
+    title: " | Tableau | Python",
+    info: "Lorem ipsum",
+  },
+];
 function Data() {
   return (
     <>
       <div className="flex flex-col gap-5 py-10 lg:flex-row lg:flex-wrap">
-        <div className=" basis-1/3 flex-1  cursor-pointer">
-          <div className=" relative block group">
-            <Image
-              alt=""
-              src={data4}
-              className="absolute inset-0 rounded-lg w-full h-80 object-cover"
-            />
-            <div
-              className=" relative transition-all rounded-lg bg-transparent
-                               w-full h-80  group-hover:bg-[#464DAF]/50
-                                "
-            >
-              <p className="relative z-20  text-center text-2xl opacity-0 group-hover:opacity-100 text-white ">
-                test
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className=" basis-1/3 flex-1  cursor-pointer">
-          <div className=" relative block group">
-            <Image
-              alt=""
-              src={data4}
-              className="absolute inset-0 rounded-lg w-full h-80 object-cover"
-            />
-            <div
-              className=" relative transition-all rounded-lg bg-transparent
-                               w-full h-80  group-hover:bg-[#464DAF]/50
-                                "
-            >
-              <p className="relative z-20  text-center text-2xl opacity-0 group-hover:opacity-100 text-white ">
-                test
-              </p>
-            </div>
-          </div>
-        </div>
+        {projects.map((project: any) => {
+          return <Card project={project} key={project.id} />;
+        })}
       </div>
     </>
   );
