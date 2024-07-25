@@ -14,7 +14,7 @@ const Tabs = () => {
             <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
               <a
                 className={
-                  "font-Montserrat text-lg font-medium px-5 py-3 shadow-lg rounded block border border-solid border-gray-200 leading-normal " +
+                  "font-Montserrat text-lg font-medium px-5 py-3 shadow-lg rounded-xl block border border-solid border-gray-200 leading-normal " +
                   (openTab === 1
                     ? "text-white bg-[#464DAF]"
                     : "text-[#464DAF] bg-white")
@@ -27,13 +27,13 @@ const Tabs = () => {
                 href="#link1"
                 role="tablist"
               >
-                Análisis de Datos
+                Data Analysis
               </a>
             </li>
             <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
               <a
                 className={
-                  "font-Montserrat text-lg font-medium  px-5 py-3 shadow-lg rounded block border border-solid border-gray-200 leading-normal " +
+                  "font-Montserrat text-lg font-medium  px-5 py-3 shadow-lg rounded-xl block border border-solid border-gray-200 leading-normal " +
                   (openTab === 2
                     ? "text-white bg-[#464DAF]"
                     : "text-[#464DAF] bg-white")
@@ -46,11 +46,11 @@ const Tabs = () => {
                 href="#link2"
                 role="tablist"
               >
-                Desarrollo Front End
+                Tableau
               </a>
             </li>
           </ul>
-          <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded">
+          <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-4 shadow-lg rounded">
             <div className="px-4 py-5 flex-auto">
               <div className="tab-content tab-space">
                 <div className={openTab === 1 ? "block" : "hidden"} id="link1">
