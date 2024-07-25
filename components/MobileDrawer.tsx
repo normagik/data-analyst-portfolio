@@ -14,16 +14,16 @@ function MobileDrawer({ isOpen, onClose }) {
       </button>
       <ul className="flex flex-col justify-center items-center space-y-4">
         <li className="text-3xl hover:text-[#464DAF]" onClick={onClose}>
-          <Link href="#inicio">Inicio</Link>
+          <Link href="#inicio">Home</Link>
         </li>
         <li className="text-3xl hover:text-[#464DAF]" onClick={onClose}>
-          <Link href="#sobre">Sobre mí</Link>
+          <Link href="#sobre">About me</Link>
         </li>
         <li className="text-3xl hover:text-[#464DAF]" onClick={onClose}>
-          <Link href="#servicios">Servicios</Link>
+          <Link href="#servicios">Services</Link>
         </li>
         <li className="text-3xl hover:text-[#464DAF]" onClick={onClose}>
-          <Link href="#portafolio">Portafolio</Link>
+          <Link href="#portafolio">Portfolio</Link>
         </li>
         <div className="justify-between flex w-32 ">
           <li>
@@ -60,7 +60,7 @@ function MobileDrawer({ isOpen, onClose }) {
             onClick={onClose}
             href="#contacto"
           >
-            Contáctame
+            Contact
           </a>
         </li>
       </ul>
