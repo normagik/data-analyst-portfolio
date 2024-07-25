@@ -15,24 +15,24 @@ function Navbar() {
     <>
       <nav className=" hidden font-Montserrat py-10 mb-12 lg:flex px-10 md:px-20 lg:px-40 ">
         <div className="flex mr-auto ">
-          <Link href="/#inicio">
+          <Link href="/#home">
             <p className="text-xl px-6 cursor-pointer no-underline hover:text-[#464DAF] hover:underline underline-offset-8 decoration-[#464DAF]">
-              Inicio
+              Home
             </p>
           </Link>
-          <Link href="/#sobre">
+          <Link href="/#about">
             <p className="text-xl px-3 cursor-pointer no-underline hover:text-[#464DAF] hover:underline underline-offset-8 decoration-[#464DAF]">
-              Sobre mí
+              About me
             </p>
           </Link>
-          <Link href="/#servicios">
+          <Link href="/#services">
             <p className="text-xl px-6  cursor-pointer no-underline hover:text-[#464DAF] hover:underline underline-offset-8 decoration-[#464DAF]">
-              Servicios
+              Services
             </p>
           </Link>
-          <Link href="/#portafolio">
+          <Link href="/#portfolio">
             <p className="text-xl px-6  cursor-pointer no-underline hover:text-[#464DAF] hover:underline underline-offset-8 decoration-[#464DAF]">
-              Portafolio
+              Portfolio
             </p>
           </Link>
         </div>
@@ -49,8 +49,11 @@ function Navbar() {
             </a>
           </li>
           <li>
-            <a>
-              {" "}
+            <a
+              href={"https://github.com/normagik"}
+              target={"_blank"}
+              rel={"noreferrer"}
+            >
               <AiFillGithub className="cursor-pointer text-3xl text-[#464DAF] hover:text-black " />
             </a>
           </li>
@@ -62,10 +65,10 @@ function Navbar() {
           </li>
           <li>
             <a
-              className="border-solid border-2 border-[#464DAF] px-4 py-2 rounded-xl ml-8 cursor-pointer hover:bg-[#464DAF] hover:text-white"
-              href="/#contacto"
+              className="border-solid border-2 border-[#464DAF] px-4 py-2 rounded-xl ml-8 cursor-pointer bg-[#464DAF] text-white hover:bg-white hover:text-black"
+              href="/#contact"
             >
-              Contáctame
+              Contact
             </a>
           </li>
         </ul>
