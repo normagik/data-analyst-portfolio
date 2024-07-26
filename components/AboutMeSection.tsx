@@ -16,13 +16,18 @@ function About() {
               <Image src={normada} alt="" />
             </div>
             <div className="lg:ml-40">
-              <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto">
+              <p className="text-md py-2 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto">
                 Hi, I'm Patricia Granados, an industrial engineer with a passion
                 for data analysis and front-end development. I hold an IBM
                 certification in data analysis and recently completed a job
-                simulation with Accenture. While new to professional data
-                analysis, my experience as a remote Front End Developer has
-                given me a strong foundation in programming and problem-solving.
+                simulation with Accenture.
+              </p>
+              <p className="text-md py-2 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto">
+                While new to professional data analysis, my experience as a
+                remote Front End Developer has given me a strong foundation in
+                programming and problem-solving.
+              </p>
+              <p className="text-md py-2 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto">
                 My industrial engineering background and technical skills allow
                 me to leverage data to drive insights and inform decisions. I
                 enjoy reading and doing origami, which enhance my creativity and
